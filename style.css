@@ -78,13 +78,13 @@ section {
 #entrar-facebook {
     position: relative;
     top: 10vh;
-    display: inline-block;
+    text-align: center;
     color: #385185;
 }
 #icon-facebook {
     position: relative;
     top: 3.3vh;
-    left: -1.8vw;  
+    left: -7vw;  
     font-size: 18px;  
 }
 #txt-entrar-facebook {
@@ -146,22 +146,35 @@ a {
         top: 100vh;
         left: -27vw;
     }
+    #login {
+        height: 70vh
+    }
     #login, #não-tem-conta {
-        width: 50%;
+        position: relative;
+        width: 80%;
+        left: 35vw;
     }
     #logo-instagram {
-        left: 10vw;
+        left: 18vw;
     }
     #input {
         position: relative;
-        left: 2vw;
+        left: 6vw;
     }
     #botão-entrar {
-        left: 5vw;
+        margin-top: 2vw;
+        left: 9vw;
     }
     hr {
         position: relative;
         left: 100vw;
     }
-
+    #icon-facebook {
+        position: relative;
+        left: -23vw;
+        top: 4vh;
+    }
+    #esqueceu-senha {
+        left: 25vw;
+    }
 }
