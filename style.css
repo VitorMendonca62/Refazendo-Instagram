@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+}
+section {
+    background-color: #FAFAFA;
+    height: 150vh;
+}
+#celulares-esquerda {
+    width: 50vw;
+}
+#foto-celular {
+    position: relative;
+    top: 6.5vh;
+    height: 99.5vh;
+    left: 35%;
+    max-width: 50vw;
+}
+#lado-direito {
+    margin-left: 30px;
+}
+#login {
+    position: relative;
+    background-color: #FFFFFF;
+    left: 51.3vw ;
+    top: -90vh;
+    width: 25vw;
+    border: 1px solid rgb(219,219,219) ;
+    height: 65vh;
+}
+#logo-instagram {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 1.3vw;
+    left: 6.5vw;
+    align-items: center;
+}
+.input {
+    position: relative;
+    display: flex;
+    width: 70%;
+    height: 30px;
+    margin-top: 6px;
+    border: 1px solid rgb(219,219,219) ;
+    top: 3.5vh;
+    border-radius: 3px;
+    padding: 3.5px 8px ;
+    background-color: #FAFAFA;
+    left: 3vw;
+}
+::-webkit-input-placeholder {
+    font-size: 12px;
+    color: rgb(151, 150, 150);
+}
+#botão-entrar {
+    position: relative;
+    width: 76%;
+    height: 30px;
+    top: 5.5vh;
+    left: 3vw;
+    background-color: #0095F6;
+    color: #e1eff8;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+
+#ou {
+    position: relative;
+    text-align: center;
+    top: 10vh;
+    color: rgb(151, 150, 150);
+    font-weight: bold;
+    font-size: 14px;
+}
+#entrar-facebook {
+    position: relative;
+    top: 10vh;
+    display: inline-block;
+    color: #385185;
+}
+#icon-facebook {
+    position: relative;
+    top: 3.3vh;
+    left: -1.8vw;  
+    font-size: 18px;  
+}
+#txt-entrar-facebook {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #385185;
+}
+#esqueceu-senha {
+    position: relative;
+    color: #385185;
+    left: 9.5vw;
+    top: 15vh;
+    font-size: 12px;
+}
+#não-tem-conta {
+    position: relative;
+    background-color: #FFFFFF;
+    left: 51.3vw ;
+    top: -88vh;
+    width: 25vw;
+    border: 1px solid rgb(219,219,219) ;
+    height: 10vh;
+}
+#txt-não-tem-conta {
+    position: relative;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    top: 3.5vh;
+}
+#aplicativos {
+    position: relative;
+    top: -83vh;
+    left: 58vw;
+    width: 30vw;
+}
+.imgs-lojas {
+    position: relative;
+    top: 4vh;
+    left: -5vw;
+    width: 136px    ;
+    height: 40px;
+}
+
+@media (max-width: 1024px) {
+    #foto-celular {
+        width: 90%;
+        left: 20%;
+    }
+}
+@media (max-width: 800px) {
+    #foto-celular {
+        display: none;
+    }
+    #lado-direito {
+        position: relative;
+        top: 100vh;
+        left: -27vw;
+    }
+    #login, #não-tem-conta {
+        width: 50%;
+    }
+    #logo-instagram {
+        left: 10vw;
+    }
+    #input {
+        position: relative;
+        left: 2vw;
+    }
+    #botão-entrar {
+        left: 5vw;
+    }
+    hr {
+        position: relative;
+        left: 100vw;
+    }
+
+}
