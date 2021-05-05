@@ -136,6 +136,12 @@ a {
         width: 90%;
         left: 20%;
     }
+    #icon-facebook {
+        left: -9vw;
+    }
+    #esqueceu-senha {
+        left: 7vw;
+    }
 }
 @media (max-width: 800px) {
     #foto-celular {
