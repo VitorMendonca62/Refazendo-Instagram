@@ -4,7 +4,7 @@ Nesse projeto refazemos a página inicial do Instagram usando HTML e CSS.
 
 No computador a página do Instagram ficou deste modo:
 
-![foto-pc-instagram](https://i.imgur.com/3FRbofj.png)
+![foto-pc-instagram](https://i.imgur.com/MkL1ddv.png)
 
 E no celular:
 
