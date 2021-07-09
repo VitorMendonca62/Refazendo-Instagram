@@ -1,186 +1,103 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Segoe UI;
+    font-family: sans-serif;
 }
-section {
+body {
     background-color: #FAFAFA;
-    height: 150vh;
-}
-#celulares-esquerda {
-    width: 50vw;
 }
 #foto-celular {
-    position: relative;
-    top: 6.5vh;
-    height: 99.501vh;
-    left: 35%;
-    max-width: 50vw;
-}
-#lado-direito {
-    margin-left: 30px;
+    margin-left: 310px;
+    margin-top: 35px;
+    height: 630px;
 }
 #login {
-    position: relative;
-    background-color: #FFFFFF;
-    left: 51.3vw ;
-    top: -90vh;
-    width: 25vw;
-    border: 1px solid rgb(219,219,219) ;
-    height: 65vh;
+    background-color: #FFFFFF ;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    width: 350px;
+    height: 355px;
+    display: grid;
+    place-items: center;
+    margin-left: 750px;
+    margin-top: -620px;
 }
 #logo-instagram {
-    position: relative;
-    width: 50%;
-    height: 50%;
-    top: 1.3vw;
-    left: 6.5vw;
-    align-items: center;
+    width: 180px;
+    height: 90px;
 }
-.input {
-    position: relative;
-    display: flex;
-    width: 70%;
-    height: 30px;
-    margin-top: 6px;
-    border: 1px solid rgb(219,219,219) ;
-    top: 3.5vh;
-    border-radius: 3px;
-    padding: 3.5px 8px ;
+input {
     background-color: #FAFAFA;
-    left: 3vw;
+    border: 1px solid rgba(128, 128, 128, 0.418);   
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 200px ;
 }
-::-webkit-input-placeholder {
+::placeholder {
     font-size: 12px;
-    color: rgb(151, 150, 150);
 }
 #botão-entrar {
-    position: relative;
-    width: 76%;
-    height: 30px;
-    top: 5.5vh;
-    left: 3vw;
-    background-color: #0095F6;
-    color: #e1eff8;
-    font-weight: bold;
+    margin-top: -10px;
+    width: 222px;
+    padding: 5px;
+    border-radius: 4px;
     border: none;
-    border-radius: 3px;
+    background-color: #0095F6;
+    color: white;
 }
-
 #ou {
-    position: relative;
-    text-align: center;
-    top: 10vh;
-    color: rgb(151, 150, 150);
-    font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
+    color: rgb(167, 167, 167);
+} 
+hr {
+    width: 90px;
+    box-shadow: none;
+    color: rgb(167, 167, 167);
+    position: absolute;
+    margin-top: 5px;
 }
-#entrar-facebook {
-    position: relative;
-    top: 10vh;
-    text-align: center;
+#hr-01 {
+    margin-left: -100px;
+}
+#hr-02 {
+    margin-left: 25px;
+}
+#entrar-facebook a i,p{
+    display: inline-block;
     color: #385185;
-}
-#icon-facebook {
-    position: relative;
-    top: 3.3vh;
-    left: -7vw;  
-    font-size: 18px;  
-}
-#txt-entrar-facebook {
-    text-align: center;
-}
-a {
+    margin-right: 5px;
     text-decoration: none;
-    color: #385185;
 }
 #esqueceu-senha {
-    position: relative;
-    color: #385185;
-    left: 9.5vw;
-    top: 15vh;
-    font-size: 12px;
+    font-size: 11px;
+    margin-bottom: 10px;
 }
 #não-tem-conta {
-    position: relative;
-    background-color: #FFFFFF;
-    left: 51.3vw ;
-    top: -88vh;
-    width: 25vw;
-    border: 1px solid rgb(219,219,219) ;
-    height: 10vh;
+    background-color: #FFFFFF ;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    width: 330px;
+    display: grid;
+    place-items: center;
+    margin-left: 750px;
+    padding: 10px;
+    margin-top: 10px;
 }
-#txt-não-tem-conta {
-    position: relative;
+#não-tem-conta p,a, #obter-apps {
     font-size: 14px;
-    font-family: sans-serif;
-    text-align: center;
-    top: 3.5vh;
 }
-#aplicativos {
-    position: relative;
-    top: -83vh;
-    left: 58vw;
-    width: 30vw;
+#não-tem-conta a {
+    color: #0095f6;
+    text-decoration: none;
 }
-.imgs-lojas {
-    position: relative;
-    top: 4vh;
-    left: -5vw;
-    width: 136px    ;
-    height: 40px;
+#aplicativos  {
+    margin-top: 20px;
+    margin-left: 780px;
 }
-
-@media (max-width: 1024px) {
-    #foto-celular {
-        width: 90%;
-        left: 20%;
-    }
-    #icon-facebook {
-        left: -9vw;
-    }
-    #esqueceu-senha {
-        left: 7vw;
-    }
+#obter-apps {
+    color: black;
+    margin-left: 65px;
+    margin-bottom: 15px;
 }
-@media (max-width: 800px) {
-    #foto-celular {
-        display: none;
-    }
-    #lado-direito {
-        position: relative;
-        top: 100vh;
-        left: -27vw;
-    }
-    #login {
-        height: 70vh
-    }
-    #login, #não-tem-conta {
-        position: relative;
-        width: 80%;
-        left: 35vw;
-    }
-    #logo-instagram {
-        left: 18vw;
-    }
-    #input {
-        position: relative;
-        left: 6vw;
-    }
-    #botão-entrar {
-        margin-top: 2vw;
-        left: 9vw;
-    }
-    hr {
-        position: relative;
-        left: 100vw;
-    }
-    #icon-facebook {
-        position: relative;
-        left: -23vw;
-        top: 4vh;
-    }
-    #esqueceu-senha {
-        left: 25vw;
-    }
+#aplicativos img {
+    width: 135px;
+    height: 40;
 }

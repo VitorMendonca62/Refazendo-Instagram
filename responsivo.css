@@ -1,0 +1,45 @@
+@media (max-width: 1125px) {
+    #celulares-esquerda, #lado-direito {
+        margin-left: -50px;
+    }
+}
+@media (max-width: 1070px) {
+    #celulares-esquerda, #lado-direito {
+        margin-left: -100px;
+    }
+}
+@media (max-width: 1020px) {
+    #celulares-esquerda, #lado-direito {
+        margin-left: -150px;
+    }
+}
+@media (max-width: 980px) {
+    #celulares-esquerda, #lado-direito {
+        margin-left: -200px;
+    }
+}
+@media (max-width: 910px) {
+    #celulares-esquerda, #lado-direito {
+        margin-left: -250px;
+    }
+}
+@media (max-width: 870px) {
+    #foto-celular {
+       display: none;
+    }
+    #login {
+        display: grid;
+        margin-top: 50px;
+    }
+    #lado-direito {
+        margin-left: -500px;
+    }
+}
+@media (max-width: 600px) {
+    #lado-direito {
+        margin-left: -600px;
+    }
+    @media (max-width: 500px) {
+        #lado-direito {
+            margin-left: -720px;
+        }
